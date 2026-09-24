@@ -34,39 +34,17 @@ payment_method = st.sidebar.multiselect(
 # ============================================
 st.subheader("📊 Indicadores Clave (KPIs)")
 
-col1, col2, col3, col4 = st.columns(4)
+fila1 = st.columns(2)
+fila2 = st.columns(2)
 
-with col1:
-    st.metric(
-        label="💰 Pérdida por Fraude",
-        value="$25,260",
-        delta="-12%",
-        delta_color="normal"
-    )
-
-with col2:
-    st.metric(
-        label="📈 Tasa de Fraude",
-        value="3.74%",
-        delta="-5 bps",
-        delta_color="normal"
-    )
-
-with col3:
-    st.metric(
-        label="🛡️ Pérdida Evitada",
-        value="$22,890",
-        delta="+8%",
-        delta_color="normal"
-    )
-
-with col4:
-    st.metric(
-        label="⚠️ Falsos Positivos",
-        value="1.04%",
-        delta="+0.2%",
-        delta_color="inverse"
-    )
+with fila1[0]:
+    st.metric("💰 Pérdida por Fraude", "$25,260", "-12%")
+with fila1[1]:
+    st.metric("📈 Tasa de Fraude", "3.74%", "-5 bps")
+with fila2[0]:
+    st.metric("🛡️ Pérdida Evitada", "$22,890", "+8%")
+with fila2[1]:
+    st.metric("⚠️ Falsos Positivos", "1.04%", "+0.2%", delta_color="inverse")
 
 # ============================================
 # SECCIÓN 2: GRÁFICOS DE TENDENCIA
