@@ -19,4 +19,4 @@ Dashboard interactivo para monitoreo de fraude en e-commerce.
 Python, Streamlit, Plotly, Pandas
 
 ## 👤 Autor
-[Tu Nombre] - Data Scientist Jr.
+[Eduardo Medina Marmolejo] - Data Scientist Jr.
