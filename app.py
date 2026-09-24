@@ -171,7 +171,7 @@ with col_alert2:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray;'>
-    <p>Dashboard creado por [Tu Nombre] | Modelo: Random Forest v2.1 | Última actualización: 15/01/2023</p>
+    <p>Dashboard creado por Eduardo Medina Marmolejo | Modelo: Random Forest v2.1 | Última actualización: 15/01/2023</p>
     <p>Tecnologías: Python, Streamlit, Plotly, Pandas</p>
 </div>
 """, unsafe_allow_html=True)
