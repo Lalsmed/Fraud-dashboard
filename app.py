@@ -136,11 +136,7 @@ with col_devices:
         'Status': ['🔴 Activo', '🔴 Activo', '🟡 Revisión', '🟢 Bloqueado', '🟢 Bloqueado']
     })
     
-    st.dataframe(
-        df_devices,
-        use_container_width=True,
-        height=400
-    )
+    st.dataframe(df_devices, use_container_width=True, height=400, hide_index=True)
 
 # ============================================
 # SECCIÓN 4: ALERTAS TEMPRANAS
