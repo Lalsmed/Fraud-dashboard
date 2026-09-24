@@ -6,7 +6,7 @@ Dashboard ejecutivo de prevención de fraude en e-commerce
 Dashboard interactivo para monitoreo de fraude en e-commerce.
 
 ## 🚀 Demo en Vivo
-[Ver Dashboard](https://tu-usuario-fraud-dashboard.streamlit.app)
+https://fraud-dashboard-a9xntwckhghgzejcputnmk.streamlit.app/
 
 ## 📊 Características
 - 4 KPIs principales
